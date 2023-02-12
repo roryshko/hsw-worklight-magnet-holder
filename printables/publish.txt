@@ -1,0 +1,35 @@
+Model name: 
+HSW customizable worklight holder with magnet
+
+Summary: 
+Customizable holder for worklight or other things with magnet or metal plate on the bottom to Honeycomb storage wall
+
+Main category: 
+Household -> Othe House Equipment
+
+Additional tags: 
+worklight, embeddedmagnets
+
+Model origin – this is a…: 
+Remix
+
+Description:
+Holder for worklight or other things with magnet or metal plate on the bottom to Honeycomb storage wall.
+This thing customizable throw OpenScad file. You can customize:
+- Plate dimensions: lenght, width, thickness
+- Plate shape: oval, rectangle, rounded rectangle
+- Magnet dimensions: lenght, width, thickness
+- Magnet shape: rectangle, circle, oval, none
+- Distance magnet udner plate surface
+- Mount wall thickness
+- HSW attach type: insert, hexagon, M3, M4
+
+This OpenScad file need "hex plug library.scad" for working. You can grab this file here: https://www.printables.com/model/260073-openscad-library-for-hsw-attachments/files
+File contains "Debug magnet mode". Turn on if you want make magnet visible along plate.
+
+Warnings:
+- Watch out for magnet polarity! 
+- Do not forget add pause in slicer to place magnet!
+- At least two layers must cover magnet! So 0.4mm minimum if you use 0.2mm layer. 
+- On Prusa MK3 print from sd card not by octoprint! In my case after pause to insert magnet print resumed, but hotend did not heat up.
+- When print inserts and hexagon attachments use supports.
