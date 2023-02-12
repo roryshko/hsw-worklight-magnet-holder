@@ -1,5 +1,6 @@
 /*
-
+Customizable worklight holder with magnet for Honeycomb storage wall.
+Can be use for store various things with magnet or metal plate.
 */
 
 include<hex plug library.scad>;
